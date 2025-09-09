@@ -1,0 +1,58 @@
+body {
+  color: #222222;
+  background-color: #ffffff;
+}
+
+/* headings: change text color and background color */
+h1 {
+  color: #ffffff;
+  background-color: #cc0000;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #990000;
+}
+
+h3, h4 {
+  color: #000000;
+  background-color: #ffd9d9;
+}
+
+/* links: red default, yellow hover, green visited */
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #00aa00; /* green */
+}
+
+a:hover {
+  color: #ffff00; /* yellow */
+}
+
+a:active {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/* class example for inline highlight (used with <span>) */
+.highlight {
+  color: #0000ff;
+  background-color: #e6f0ff;
+}
+
+/* id examples for <div> blocks */
+#contact-box {
+  background-color: #f2f2f2;
+}
+
+#progress-note {
+  background-color: #f9f1d6;
+}
+
+/* simple nav styling (colors only, per class scope) */
+nav {
+  background-color: #eee;
+}
