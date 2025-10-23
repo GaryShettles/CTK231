@@ -1,0 +1,101 @@
+
+
+/* Assignment 5 – basic CSS only */
+
+/* Full-page patterned background */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("a5bg.png");
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: fixed;   
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+/* Header bar (white box over the pattern) */
+#site-header h1 {
+  font-weight: normal;            /* not bold */
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+}
+
+/* NAV: horizontal blue boxes; lighter blue on hover (see example2.png) */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;          /* horizontal list */
+  margin: 10px;
+}
+
+nav li a {
+  display: block;
+  padding: 12px 22px;
+  color: #ffffff;
+  background-color: #1e5bd9;      /* blue box */
+  text-decoration: none;
+  border: 1px solid #123a8f;
+}
+
+nav li a:hover {
+  background-color: #4a7df0;      /* lighter on hover */
+}
+
+/* Main content panel (white box with border over background) */
+#content {
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 30px;
+  border: 1px solid #000000;
+}
+
+/* Decorative underline on h2 using border-bottom (no <hr>) */
+#content h2 {
+  font-weight: bold;              /* h2 should be bold */
+  margin: 0 0 16px 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #000000;
+}
+
+/* Paragraph alignment + link styles (see example3.png for hover) */
+.textjustify {
+  text-align: justify;
+  line-height: 20px;
+}
+
+#content p a {
+  color: #1e5bd9;                 /* blue */
+  font-weight: bold;              /* bold */
+  text-decoration: none;          /* no underline */
+}
+
+#content p a:hover {
+  color: #cc0000;                 /* red on hover */
+  text-decoration: underline;     /* underline on hover */
+}
+
+/* Footer bar (dark blue with white border, centered Verdana bold italic) */
+#site-footer {
+  background-color: #0b2a6f;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  margin: 0;
+}
+
+#site-footer .footer-text {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 22px;
+}
