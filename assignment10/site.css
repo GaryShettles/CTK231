@@ -1,0 +1,107 @@
+/* ====== Base ====== */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #0b0e14;   /* dark page background like comps */
+  color: #111;
+}
+
+/* ====== Top navigation + page title (dark bar, centered links) ====== */
+.topbar {
+  background-color: #121826;    /* dark/navy */
+  border-bottom: 3px solid #cc0000; /* red accent */
+  color: #fff;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 12px 0;
+  text-align: center;
+}
+.nav li { display: inline-block; margin: 0 10px; }
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 14px;
+}
+.nav a:hover,
+.nav a.active { background-color: #cc0000; color: #fff; }
+
+.page-title {
+  text-align: left;
+  font-weight: normal;
+  background-color: #fff;
+  color: #111;
+  margin: 10px auto 0 auto;
+  max-width: 1100px;            /* gives the “banner” feel */
+  padding: 14px 18px;
+  border: 1px solid #000;
+}
+
+/* ====== Shared white content panel ====== */
+.panel {
+  background-color: #fff;
+  border: 1px solid #000;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 22px;
+}
+
+/* ====== Home: hero image ====== */
+.hero { margin: 0; }
+.hero img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #000;
+  display: block;
+}
+.hero figcaption {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* ====== Contacts block ====== */
+.contact-panel .label {
+  font-weight: bold;
+  color: #cc0000;
+}
+.bio { line-height: 1.55; text-align: left; }
+
+/* ====== Projects grid (three tiles like the mockup) ====== */
+.projects-grid {
+  display: block;                /* basic block layout */
+  text-align: center;
+}
+.project {
+  display: inline-block;         /* 3 across without advanced layout */
+  width: 32%;
+  margin: 1%;
+  vertical-align: top;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 14px;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #000;
+  display: block;
+}
+.project h2 {
+  margin: 10px 0 0 0;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+/* ====== Footer ====== */
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #121826;
+  border-top: 3px solid #cc0000;
+  padding: 16px;
+}
